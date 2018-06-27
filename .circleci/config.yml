@@ -19,4 +19,4 @@ jobs:
 
       - run: go get -u -v -t github.com/Masterminds/glide
       - run: glide install -v
-      - run: go build -v github.com/na1s/mfa
+      - run: go build -v github.com/na1s/mfa/cmd
