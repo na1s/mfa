@@ -9,7 +9,7 @@ workdir:
 build: workdir/mfa
 
 workdir/mfa: $(GOFILES)
-	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o workdir/mfa cmd
+	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o workdir/mfa cmd/main.go
 
 test: test-all
 
