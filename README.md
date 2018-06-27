@@ -1,4 +1,4 @@
-# Standard Go Project Layout
+# Multi-factor server application
 
  [![CircleCI Build Status](https://circleci.com/gh/na1s/mfa.svg?style=shield)](https://circleci.com/gh/na1s/mfa) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/na1s/mfa/master/LICENSE)
 
