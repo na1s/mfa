@@ -1,4 +1,6 @@
-hash: 3441bf6ff6d443d7e65fcdfc4f1d1b67e506cee012ed3b4901bbe2aab9890aa9
-updated: 2018-06-27T15:11:29.9959793-04:00
-imports: []
+hash: 81f81a32705c1eb7259a1390a33d8685b6c971122b3d246194a28ff96363b8ab
+updated: 2018-06-27T16:25:24.9508758-04:00
+imports:
+- name: github.com/mongodb/mongo-go-driver
+  version: bb548a5e4d4cabb086e6425b113b07270e40bbb8
 testImports: []

@@ -1,3 +1,4 @@
 package: .
 import:
-
+- package: github.com/mongodb/mongo-go-driver
+  version: ^0.0.7
