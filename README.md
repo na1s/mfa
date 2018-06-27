@@ -1,5 +1,7 @@
 # Standard Go Project Layout
 
+[![CircleCI](https://circleci.com/gh/na1s/mfa.svg?style=svg)](https://circleci.com/gh/na1s/mfa)
+
 This is a basic layout for Go application projects. It represents the most common directory structure with a number of small enhancements along with several supporting directories common to any real world application. 
 
 This project layout is intentionally generic and it doesn't try to impose a specific Go package structure.
