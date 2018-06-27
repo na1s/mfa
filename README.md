@@ -1,6 +1,6 @@
 # Standard Go Project Layout
 
-[![CircleCI](https://circleci.com/gh/na1s/mfa.svg?style=svg)](https://circleci.com/gh/na1s/mfa)
+ [![CircleCI Build Status](https://circleci.com/gh/na1s/mfa.svg?style=shield)](https://circleci.com/gh/na1s/mfa) [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/na1s/mfa/master/LICENSE)
 
 This is a basic layout for Go application projects. It represents the most common directory structure with a number of small enhancements along with several supporting directories common to any real world application. 
 
