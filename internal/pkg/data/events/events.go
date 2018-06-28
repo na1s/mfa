@@ -1,7 +1,8 @@
 package events
 
 import (
-	mgo "gopkg.in/mgo.v2"
+	"github.com/na1s/mfa/internal/pkg/config"
+	"github.com/na1s/mfa/internal/pkg/data"
 	"gopkg.in/mgo.v2/bson"
 )
 
@@ -11,13 +12,15 @@ type Event struct {
 	Type   string   `json:"type"`
 }
 
-func Connect() []Event {
-	session, err := mgo.Dial("localhost")
+const eventCollectionName = "events"
+
+func GetEvents(config config.Configuration) []Event {
+	session, err := data.GetSession(config)
 	if err != nil {
 		panic(err)
 	}
-	defer session.Close()
-	c := session.DB("mfa").C("event")
+	defer data.Close(session)
+	c := session.DB(config.GetDatabaseName()).C(eventCollectionName)
 
 	var events []Event
 	err = c.Find(bson.M{}).All(&events)
