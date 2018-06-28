@@ -1,6 +1,6 @@
-hash: 81f81a32705c1eb7259a1390a33d8685b6c971122b3d246194a28ff96363b8ab
-updated: 2018-06-27T16:25:24.9508758-04:00
+hash: f500418103e6ada1dec9bf570287d9fcf5ec1ef359949d7343caa14360182b53
+updated: 2018-06-28T10:59:03.0390883-04:00
 imports:
-- name: github.com/mongodb/mongo-go-driver
-  version: bb548a5e4d4cabb086e6425b113b07270e40bbb8
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
 testImports: []

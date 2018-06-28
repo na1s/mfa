@@ -1,4 +1,3 @@
-package: .
+package: github.com/na1s/mfa
 import:
-- package: github.com/mongodb/mongo-go-driver
-  version: ^0.0.7
+- package: gopkg.in/mgo.v2

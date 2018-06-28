@@ -1,5 +1,12 @@
 package main
-import "fmt"
+
+import (
+	"fmt"
+
+	"github.com/na1s/mfa/internal/pkg/data/events"
+)
+
 func main() {
-    fmt.Println("hello world")
+	events := events.Connect()
+	fmt.Println(events)
 }
